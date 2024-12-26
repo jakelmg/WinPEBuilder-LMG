@@ -2,3 +2,8 @@
 WinPEBuilder1.1.zip
 WinPE_X64.iso
 SetDirectories.ps1
+
+# Ignore build files in case they exist
+WinPE-Root/*
+# Except for the info file
+!WinPE-Root/info.txt
